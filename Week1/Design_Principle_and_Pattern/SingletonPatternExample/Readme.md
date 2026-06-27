@@ -9,7 +9,7 @@ Implement the Singleton Design Pattern to ensure that a Logger class has only on
 ## Project Structure
 
 ```text
-Ex1-Singleton
+SingletonPatternExample
 │
 ├── Logger.java
 ├── Main.java
