@@ -28,5 +28,8 @@ public class BookServiceTest {
 
         // Verify Result
         assertEquals("Clean Code", title);
+
+        // Verify Interaction
+        verify(repository).findBookById(1);
     }
 }
