@@ -14,6 +14,11 @@ public class Country {
         LOGGER.debug("Inside Country Constructor.");
     }
 
+    public Country(String code, String name) {
+        this.code = code;
+        this.name = name;
+    }
+
     public String getCode() {
         LOGGER.debug("Inside getCode()");
         return code;

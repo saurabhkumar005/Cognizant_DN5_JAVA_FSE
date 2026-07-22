@@ -15,15 +15,15 @@ public class SpringlearnApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringlearnApplication.class, args);
-		displayCountry();
+//		displayCountry();
 	}
 
-	public static void displayCountry() {
-		LOGGER.info("START");
-		ApplicationContext context = new ClassPathXmlApplicationContext("country.xml");
-		Country country = context.getBean("country", Country.class);
-		LOGGER.debug("Country : {}", country);
-		LOGGER.info("END");
-	}
+//	public static void displayCountry() {
+//		LOGGER.info("START");
+//		ApplicationContext context = new ClassPathXmlApplicationContext("country.xml");
+//		Country country = context.getBean("country", Country.class);
+//		LOGGER.debug("Country : {}", country);
+//		LOGGER.info("END");
+//	}
 
 }
